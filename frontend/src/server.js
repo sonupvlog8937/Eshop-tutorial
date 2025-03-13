@@ -1,3 +1,3 @@
-export const server = "https://surefly.vercel.app/api/v2";
+export const server = "https://surefly.vercel.app//api/v2";
 
 
