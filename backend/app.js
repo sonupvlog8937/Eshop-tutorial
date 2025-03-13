@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 app.use(cors({
-  origin: ['https://zedaddy.vercel.app',],
+  origin: ['https://surefly-now.vercel.app',],
   credentials: true
 }));
 
