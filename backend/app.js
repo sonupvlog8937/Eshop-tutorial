@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 app.use(cors({
-  origin: ['https://surefly-now-git-master-go-market.vercel.app',],
+  origin: ['https://sureflyserver.vercel.app',],
   credentials: true
 }));
 
