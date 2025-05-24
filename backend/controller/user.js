@@ -35,7 +35,7 @@ router.post("/create-user", async (req, res, next) => {
 
     const activationToken = createActivationToken(user);
 
-    const activationUrl = `https://sureflyserver.vercel.app/activation/${activationToken}`;
+    const activationUrl = `https://eshop-tutorial-iota.vercel.app/activation/${activationToken}`;
 
     try {
       await sendMail({

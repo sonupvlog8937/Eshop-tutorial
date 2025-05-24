@@ -39,7 +39,7 @@ router.post("/create-shop", catchAsyncErrors(async (req, res, next) => {
 
     const activationToken = createActivationToken(seller);
 
-    const activationUrl = `https://sureflyserver.vercel.app/seller/activation/${activationToken}`;
+    const activationUrl = `https://eshop-tutorial-iota.vercel.app/seller/activation/${activationToken}`;
 
     try {
       await sendMail({

@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 app.use(cors({
-  origin: ['https://sureflyserver.vercel.app',],
+  origin: ['https://eshop-tutorial-iota.vercel.app',],
   credentials: true
 }));
 
